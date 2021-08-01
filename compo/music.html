@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>BFF(maa-maa)</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="../css/song.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <div class="main_div">
+            <div class="music_container">
+                <h2 id="title">Meri Zindgi Sawari</h2>
+                <h3 id="artist">Album</h3>
+                <div class="img_container">
+                    <img src="../img/margish.jpeg" alt="">
+                </div>
+                <audio src="../music/patel-1.mp3"></audio>
+
+
+                <div class="progressbar_container" id="progress_container">
+                    <div class="progress_duration_meter">
+                        <div id="current_time">0:00</div>
+                        <div id="duration">4:23</div>
+                    </div>
+                    <div class="progress_div" id="progress_div">
+                        <div class="progress" id="progress"></div>
+                    </div>
+                </div>
+
+
+                <div class="music_controls">
+                    <i class="fas fa-backward" id="prev" title="previous"></i>
+                    <i class="fas fa-play main_button" id="play" title="play"></i>
+                    <i class="fas fa-forward" id="next" title="next"></i>
+                </div>
+            </div>
+        </div>
+        <script src="../js/song.js"></script>
+    </body>
+</html>
