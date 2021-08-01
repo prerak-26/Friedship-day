@@ -7,31 +7,45 @@ const prev = document.getElementById('prev');
 const next = document.getElementById('next');
 const progress_div = document.getElementById('progress_div');
 
+
+
+const urlstring = window.location.href
+const parameter = urlstring.split('=')[1]
+const imgsrc = parameter.split('&')[0]
+const titlecontent = parameter.split('&')[1]
+const artistcontent = parameter.split('&')[2]
+const id = parameter.split('&')[3]
+img.src = "../img/"+imgsrc+".jpeg";
+music.src = "../music/patel-"+id+".mp3";
+title.textContent = titlecontent;
+artist.textContent = artistcontent;
+
+
 let progress = document.getElementById('progress');
 let current_time = document.getElementById('current_time');
 let total_duration = document.getElementById('duration');
 
 const songs = [
     {
-        name : "patel-1",
+        name : "patel-0",
         title : "Meri Zindgi Sawari",
         artist : "Album",
         pname : "margish"
     },
     {
-        name : "patel-2",
+        name : "patel-1",
         title : "jaane Nahin",
         artist : "Sonu Nigam",
         pname : "meha"
     },
     {
-        name : "patel-3",
+        name : "patel-2",
         title : "Tera Yaar Hoon",
         artist : "Arijit Singh",
         pname : "dhruvi"
     },
     {
-        name : "patel-4",
+        name : "patel-3",
         title : "Tum Jaise Bewadon",
         artist : "Rajeev Raja",
         pname : "group"
@@ -65,7 +79,7 @@ const loadSong = (songs) => {
     img.src = "../img/"+songs.pname+".jpeg";
 }
 
-songIndex = 0;
+songIndex = parseInt(id);
 
 const nextSong = () => {
     songIndex = (songIndex + 1) % songs.length;
