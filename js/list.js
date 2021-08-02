@@ -67,8 +67,23 @@ const search = () => {
 
 const btn = document.getElementById('s_btn')
 const search_text = document.getElementById('myinput')
+const search_btn = document.getElementById('btn_logo')
+
+let show_text = false;
 
 btn.addEventListener('click',()=>{
-    search_text.classList.add('show')
-    btn.style.top = '0';
-})
+    if(!show_text){
+        search_text.classList.add('show')
+        btn.style.top = '0';
+        search_btn.classList.add('fa-search-minus')
+        search_btn.classList.remove('fa-search')
+        show_text = true;
+    }
+    else{
+        search_text.classList.remove('show')
+        btn.style.top = '-15px';
+        search_btn.classList.add('fa-search')
+        search_btn.classList.remove('fa-search-minus')
+        show_text = false;
+    }
+})    
