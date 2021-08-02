@@ -8,9 +8,10 @@ const next = document.getElementById('next');
 const progress_div = document.getElementById('progress_div');
 
 
-
+/** */
 const urlstring = window.location.href
-const parameter = urlstring.split('=')[1]
+const decodeurl = decodeURI(urlstring);
+const parameter = decodeurl.split('=')[1]
 const imgsrc = parameter.split('&')[0]
 const titlecontent = parameter.split('&')[1]
 const artistcontent = parameter.split('&')[2]
@@ -19,7 +20,7 @@ img.src = "../img/"+imgsrc+".jpeg";
 music.src = "../music/patel-"+id+".mp3";
 title.textContent = titlecontent;
 artist.textContent = artistcontent;
-
+/**/
 
 let progress = document.getElementById('progress');
 let current_time = document.getElementById('current_time');

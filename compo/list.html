@@ -4,9 +4,24 @@
         <title>BFF(maa-maa)</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link href="../css/list.css" rel="stylesheet">
     </head>
     <body>
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">MM P</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <div class="serch_box">
+                        <input type="text" class="search_text" id="myinput" placeholder="Search..." onkeyup="search()">
+                        <a href="#" class="search_btn" id="s_btn">
+                            <i class="fa fa-search fa-2x"></i>
+                        </a>
+                    </div>   
+                </div>  
+            </nav>
+        </header>
         <div class="main_container" id="main-container">
         </div>
         <script src="../js/list.js"></script>

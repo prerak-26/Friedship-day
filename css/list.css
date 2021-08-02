@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Noto+Sans+KR:wght@300&family=Style+Script&display=swap');
 *,
 *::before,
 *::after{
@@ -12,20 +13,97 @@ html{
     font-family: 'Jost', sans-serif;
 }
 
+/* body{
+    width: 100vw;
+} */
+
 a{
     text-decoration: none;
 }
 
-.main_container{
-    display: grid;
+.header {
     width: 100%;
-    margin: 1rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    background-color:#f7f7f7;
+}
+
+.nav{
+    height: 6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    margin: 0 .5rem;
+}
+
+.nav__logo{
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    word-spacing: 0.5rem;
+    color: #171717;
+    margin: 2rem 0 0.5rem 0;
+    font-size: 1.5rem;
+    font-weight: 900;
+    font-family: 'Style Script', cursive;
+}
+
+.nav__menu {
+    position: relative;
+}
+
+.search_box{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search_text{
+    width: 0rem;
+    border-radius: 5rem;
+    border: none;
+    outline: none;
+    background-color: #f7f7f7;
+    transition: all 0.2s linear;
+}
+
+.show{
+    width: 25rem;
+    padding: 2rem;
+}
+
+.search_text:focus{
+    outline: none;
+}
+
+.search_btn{
+    width: 4rem;
+    height: 4rem;
+    background-color: #f7f7f7;
+    color: #171717;
+    position: absolute;
+    right: 0;
+    top: -15px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+}
+
+.main_container{
+    width: 100%;
+    display: grid;
+    padding: 6.3rem 1.5rem;
     gap: 1rem;
 }
 
 .box_container{
     display: flex;
-    /* justify-content:space-around; */
     align-items: center;
     border-radius: 5px;
     background-color: #f7f7f7;
@@ -73,5 +151,12 @@ a{
 @media screen and (min-width : 768px){
     .main_container{
         grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media screen and (max-width : 767px) {
+    .img_box{
+        width: 100px;
+        height: 100px;
     }
 }
