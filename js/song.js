@@ -50,6 +50,36 @@ const songs = [
         title : "Tum Jaise Bewadon",
         artist : "Rajeev Raja",
         pname : "group"
+    },
+    {
+        name : "patel-4",
+        title : "Jaan'isaar",
+        artist : "Arijit Singh",
+        pname : "margish"
+    },
+    {
+        name : "patel-5",
+        title : "Yeh Tune Kya Kiya",
+        artist : "Javed Bashir",
+        pname : "meha"
+    },
+    {
+        name : "patel-6",
+        title : "Perfect",
+        artist : "Ed Sheeran",
+        pname : "dhruvi"
+    },
+    {
+        name : "patel-7",
+        title : "Girls Like You",
+        artist : "Maroon 5",
+        pname : "margish"
+    },
+    {
+        name : "patel-8",
+        title : "Agar Tum Saath",
+        artist : "Alka Yagnik and Arjit Singh",
+        pname : "group"
     }
 ];
 

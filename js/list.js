@@ -24,6 +24,36 @@ const songlist = [
         songtitle : "Tum Jaise Bewadon",
         songartist : "Rajeev Raja",
         pname : "group"
+    },
+    {
+        id : "4",
+        songtitle : "Jaan'isaar",
+        songartist : "Arijit Singh",
+        pname : "margish"
+    },
+    {
+        id : "5",
+        songtitle : "Yeh Tune Kya Kiya",
+        songartist : "Javed Bashir",
+        pname : "meha"
+    },
+    {
+        id : "6",
+        songtitle : "Perfect",
+        songartist : "Ed Sheeran",
+        pname : "dhruvi"
+    },
+    {
+        id : "7",
+        songtitle : "Girls Like You",
+        songartist : "Maroon 5",
+        pname : "margish"
+    },
+    {
+        id : "8",
+        songtitle : "Agar Tum Saath",
+        songartist : "Alka Yagnik and Arjit Singh",
+        pname : "group"
     }
 ]
 
