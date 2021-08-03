@@ -156,7 +156,24 @@ a{
 
 @media screen and (max-width : 767px) {
     .img_box{
-        width: 100px;
-        height: 100px;
+        width: 80px;
+        height: 80px;
     }
+
+    .song_content #song-title{
+        text-transform: uppercase;
+        letter-spacing: 0.1rem;
+        word-spacing: 0.3rem;
+        font-size: 1.5rem;
+        font-weight: 300;
+        text-shadow: 0 0.3rem 0.5rem rgba(0,0,0,0.3);
+    }
+
+    .song_content #song-artist{
+        letter-spacing: 0.1rem;
+        font-size: 1rem;
+        margin-bottom: 2rem;
+        font-weight: 300;
+    }
+    
 }
