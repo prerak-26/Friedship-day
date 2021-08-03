@@ -27,7 +27,7 @@ const songlist = [
     },
     {
         id : "4",
-        songtitle : "Jaan'isaar",
+        songtitle : "Jaan'Nisaar",
         songartist : "Arijit Singh",
         pname : "margish"
     },
@@ -53,6 +53,48 @@ const songlist = [
         id : "8",
         songtitle : "Agar Tum Saath",
         songartist : "Alka Yagnik and Arjit Singh",
+        pname : "group"
+    },
+    {
+        id : "9",
+        songtitle : "Aabaad Barbaad",
+        songartist : "Arjit Singh",
+        pname : "group"
+    },
+    {
+        id : "10",
+        songtitle : "Attention",
+        songartist : "Charlie Puth",
+        pname : "dhruvi"
+    },
+    {
+        id : "11",
+        songtitle : "Old vs New",
+        songartist : "Album",
+        pname : "meha"
+    },
+    {
+        id : "12",
+        songtitle : "Har Har Gange",
+        songartist : "Arijit Singh",
+        pname : "margish"
+    },
+    {
+        id : "13",
+        songtitle : "Sawarne Lage",
+        songartist : "Tanishk Bagchi, Jubin Nautiyal",
+        pname : "meha"
+    },
+    {
+        id : "14",
+        songtitle : "Superhero",
+        songartist : "Unknown Brain",
+        pname : "dhruvi"
+    },
+    {
+        id : "15",
+        songtitle : "Radha ne Shyam",
+        songartist : "Sachin-Jigar, Sachin Sanghvi",
         pname : "group"
     }
 ]
@@ -104,14 +146,14 @@ let show_text = false;
 btn.addEventListener('click',()=>{
     if(!show_text){
         search_text.classList.add('show')
-        btn.style.top = '0';
+        btn.style.top = '7px';
         search_btn.classList.add('fa-search-minus')
         search_btn.classList.remove('fa-search')
         show_text = true;
     }
     else{
         search_text.classList.remove('show')
-        btn.style.top = '-15px';
+        btn.style.top = '-5px';
         search_btn.classList.add('fa-search')
         search_btn.classList.remove('fa-search-minus')
         show_text = false;

@@ -53,7 +53,7 @@ const songs = [
     },
     {
         name : "patel-4",
-        title : "Jaan'isaar",
+        title : "Jaan'Nisaar",
         artist : "Arijit Singh",
         pname : "margish"
     },
@@ -79,6 +79,48 @@ const songs = [
         name : "patel-8",
         title : "Agar Tum Saath",
         artist : "Alka Yagnik and Arjit Singh",
+        pname : "group"
+    },
+    {
+        name : "patel-9",
+        title : "Aabaad Barbaad",
+        artist : "Arjit Singh",
+        pname : "group"
+    },
+    {
+        name : "patel-10",
+        title : "Attention",
+        artist : "Charlie Puth",
+        pname : "dhruvi"
+    },
+    {
+        name : "patel-11",
+        title : "Old vs New",
+        artist : "Album",
+        pname : "meha"
+    },
+    {
+        name : "patel-12",
+        title : "Har Har Gange",
+        artist : "Arijit Singh",
+        pname : "margish"
+    },
+    {
+        name : "patel-13",
+        title : "Sawarne Lage",
+        artist : "Tanishk Bagchi, Jubin Nautiyal",
+        pname : "meha"
+    },
+    {
+        name : "patel-14",
+        title : "Superhero",
+        artist : "Unknown Brain",
+        pname : "dhruvi"
+    },
+    {
+        name : "patel-15",
+        title : "Radha ne Shyam",
+        artist : "Sachin-Jigar, Sachin Sanghvi",
         pname : "group"
     }
 ];

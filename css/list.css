@@ -89,7 +89,7 @@ a{
     color: #171717;
     position: absolute;
     right: 0;
-    top: -15px;
+    top: -5px;
     display: grid;
     place-items: center;
     border-radius: 50%;
@@ -140,7 +140,7 @@ a{
 }
 
 .song_content #song-artist{
-    color: #cccaca;
+    color: #a19d9d;
     text-transform:capitalize;
     letter-spacing: 0.1rem;
     font-size: 2rem;
