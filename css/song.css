@@ -28,6 +28,7 @@ html{
     box-shadow: 0 1.2rem 3rem 0.5rem rgba(0,0,0,0.2);
     padding: 3rem;
     text-align: center;
+    -webkit-box-reflect : below 5px linear-gradient(transparent,transparent,#0009);
 }
 
 .music_container #title{
